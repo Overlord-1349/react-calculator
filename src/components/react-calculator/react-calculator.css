@@ -1,0 +1,34 @@
+.calc-button-grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    border: 2px blue solid;
+}
+
+/*.calc-button-grid-item{   
+}*/
+
+.calc-button-grid-item-zero{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.calc-button-btn {
+    width: 100%;
+    height: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3em;    
+}
+
+.calc-input {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    font-size: 4em;    
+    text-align: right;
+}
+
+.calc-input-all-ops {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    font-size: 1em;   
+    text-align: right; 
+}
